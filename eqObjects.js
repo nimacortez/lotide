@@ -27,7 +27,8 @@ const assertArraysEqual = function(actual, expected) {
         return false;
       }
     } else { 
-      (object1[key] !== object2[key]) {
+      if (object1[key] !== object2[key]);
+      {
       return false;
     }
   }
@@ -35,12 +36,5 @@ const assertArraysEqual = function(actual, expected) {
   return true; 
     };
   
-
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-eqObjects(ab, ba); // => true
-
-const abc = { a: "1", b: "2", c: "3" };
-eqObjects(ab, abc); // => false
 
 module.exports = eqObjects;

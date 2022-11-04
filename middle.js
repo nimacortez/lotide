@@ -10,3 +10,5 @@ const middle = function(array) {
      return newArray;
   }
 };
+
+module.exports = middle;

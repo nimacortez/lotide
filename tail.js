@@ -5,11 +5,5 @@ const tail = function(array) {
 };
 
 
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result, ["Lighthouse", "Labs"]); 
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words);
-assertEqual(words.length, 3);
-
-module.exports = assertEqual;
+module.exports = tail;

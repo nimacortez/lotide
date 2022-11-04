@@ -15,4 +15,4 @@ const assertEqual = require('./assertEqual');
     return true;
   };
 
-  module.exports = assertEqual;
+  module.exports = eqArrays;

@@ -27,9 +27,8 @@ const assertArraysEqual = function(actual, expected) {
         return false;
       }
     } else { 
-      if (object1[key] !== object2[key]);
-      {
       return false;
+      {
     }
   }
   } 
